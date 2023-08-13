@@ -8,7 +8,7 @@
 </script>
 
 <a
-	class="grid grid-cols-5 border-2 border-gray-800 rounded-2xl p-7 hover:border-gray-700 hover:bg-gray-800 hover:bg-opacity-20 transition-all delay-100"
+	class="grid grid-cols-5 border-2 border-gray-800 rounded-2xl p-7 hover:border-gray-700 hover:bg-gray-800 hover:bg-opacity-40 hover:shadow-lg hover:shadow-gray-800 hover:scale-[1.02] transition-all duration-500"
 	{href}
 	target="_blank"
 >
