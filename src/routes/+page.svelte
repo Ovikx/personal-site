@@ -1,7 +1,10 @@
-<script>
+<script lang="ts">
+	/** @type {import('./$types').PageData} */
+	export let data: { projects: Required<Project>[] };
 	import { fade } from 'svelte/transition';
-	import LinkButton from '../components/LinkButton.svelte';
+	import LinkButton from './LinkButton.svelte';
 	import { onMount } from 'svelte';
+	import Project from './Project.svelte';
 	const items = ['apps', 'websites', 'developer tools', 'games', '3D digital art'];
 	const gradients = [
 		['#EF4444', '#EAB308'],
@@ -46,7 +49,7 @@
 				</p>
 			{/if}
 		</div>
-		<p class="text-md md:text-2xl mt-10 md:mt-16 w-4/5 md:w-3/5 text-center text-gray-300">
+		<p class="text-base md:text-2xl mt-10 md:mt-16 w-4/5 md:w-3/5 text-center text-gray-300">
 			I'm a student who's excited about building cool software. Doesn't matter if it's an NPM
 			package, a mobile app, or a physics simulator—I'm down.
 		</p>
@@ -106,6 +109,35 @@
 		>
 	</div>
 </div>
-<div>
-	<h1 class="flex justify-center mt-10 | text-3xl md:text-5xl">PROJECTS</h1>
+<div class="flex flex-col">
+	<h1 class="flex justify-center mt-7 | text-3xl md:text-5xl">PROJECTS</h1>
+	<hr class="w-1/12 mx-auto mt-5 border-gray-600" />
+	<p class="justify-center mt-5 w-10/12 text-center mx-auto | text-xl md:text-xl">
+		Here's a brief overview of some of the projects I've done.
+	</p>
+	<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-16 sm:mt-20 w-11/12 mx-auto">
+		{#each data.projects as project}
+			<Project
+				title={project.title}
+				description={project.description}
+				techs={project.techs}
+				href={project.href}
+				imgUrl={project.imgUrl}
+			/>
+		{/each}
+	</div>
 </div>
+<hr class="w-4/12 mx-auto mb-5 mt-10 border-gray-600" />
+
+<footer class="pb-7 flex">
+	<div class="mx-auto flex flex-row">
+		<p class=" text-gray-500">Handcrafted by me, using</p>
+		<p>&nbsp;</p>
+		<a
+			href="https://www.svelte.dev"
+			target="_blank"
+			class="text-orange-700 hover:text-orange-500 hover:bg-orange-800 rounded-md hover:bg-opacity-20 px-1 transition-all"
+			>Svelte</a
+		>
+	</div>
+</footer>
