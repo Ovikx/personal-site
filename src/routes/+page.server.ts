@@ -1,6 +1,7 @@
 import { projects, type Project } from './projects';
 import { JSDOM } from 'jsdom';
 
+export const prerender = true;
 /** @type {import('./$types').PageLoad} */
 export async function load() {
 	const retrieved: Required<Project>[] = [];
