@@ -2,7 +2,7 @@ import { projects, type Project } from './projects';
 import { JSDOM } from 'jsdom';
 
 /** @type {import('./$types').PageLoad} */
-export async function load({ params }) {
+export async function load() {
 	const retrieved: Required<Project>[] = [];
 	for (const project of projects) {
 		if (!project.imgUrl) {

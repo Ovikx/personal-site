@@ -1,12 +1,10 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import LinkButton from './LinkButton.svelte';
 	import Tech from './Tech.svelte';
 	export let title: string;
 	export let techs: string[];
 	export let description: string;
 	export let href: string;
-	export let imgUrl: string = '';
+	export let imgUrl = '';
 </script>
 
 <a
