@@ -141,7 +141,7 @@
 		>
 	</div>
 	<a
-		class="mx-auto text-gray-500 hover:text-cyan-500 hover:bg-cyan-800 rounded-md hover:bg-opacity-20 px-1 transition-all"
+		class="mx-auto text-cyan-900 hover:text-cyan-500 hover:bg-cyan-800 rounded-md hover:bg-opacity-20 px-1 transition-all"
 		href="https://github.com/Ovikx/personal-site"
 		target="_blank">View the source code</a
 	>
