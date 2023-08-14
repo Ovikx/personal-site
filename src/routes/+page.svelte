@@ -50,7 +50,7 @@
 			{/if}
 		</div>
 		<p class="text-base md:text-2xl mt-10 md:mt-16 w-4/5 md:w-3/5 text-center text-gray-300">
-			I'm a student who's excited about building cool software. Doesn't matter if it's an NPM
+			I'm a student who's excited about building cool software. Doesn't matter if it's an npm
 			package, a mobile app, or a physics simulator—I'm down.
 		</p>
 
