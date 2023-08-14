@@ -129,7 +129,7 @@
 </div>
 <hr class="w-4/12 mx-auto mb-5 mt-10 border-gray-600" />
 
-<footer class="pb-7 flex">
+<footer class="pb-7 flex flex-col gap-2">
 	<div class="mx-auto flex flex-row">
 		<p class=" text-gray-500">Handcrafted by me, using</p>
 		<p>&nbsp;</p>
@@ -140,4 +140,9 @@
 			>Svelte</a
 		>
 	</div>
+	<a
+		class="mx-auto text-gray-500 hover:text-cyan-500 hover:bg-cyan-800 rounded-md hover:bg-opacity-20 px-1 transition-all"
+		href="https://github.com/Ovikx/personal-site"
+		target="_blank">View the source code</a
+	>
 </footer>
