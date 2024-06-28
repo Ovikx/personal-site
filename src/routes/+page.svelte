@@ -30,8 +30,8 @@
 	});
 </script>
 
-<div class="flex bg-header-gradient bg-cover min-h-screen">
-	<div class="flex flex-col items-center mt-28 md:mt-28">
+<div class="flex bg-header-gradient bg-cover min-h-screen justify-center">
+	<div class="flex flex-col items-center mt-28 3xl:mt-72">
 		<h1 class="font-extrabold text-5xl md:text-9xl">OVIK DAS</h1>
 
 		<div class="flex flex-row mt-10 text-2xl text-gray-200 md:text-5xl">

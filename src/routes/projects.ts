@@ -19,8 +19,7 @@ export const projects: Project[] = [
 			'A text-based RPG Discord bot. Fight against unique enemies in PvE or duel your friends in real-time PvP using highly customizable equipment',
 		techs: ['TypeScript', 'Eris', 'MongoDB', 'Node.js', 'Azure Functions'],
 		href: 'https://github.com/Ovikx/exalt-public',
-		imgUrl:
-			'https://media.discordapp.net/attachments/992812563870003230/1140366965752467597/exalt-logo-banner.png?width=664&height=332'
+		imgUrl: 'exalt-logo-banner.png'
 	},
 	{
 		title: 'Vector field particle simulator',
@@ -28,8 +27,7 @@ export const projects: Project[] = [
 			'A particle simulator where force comes from a globally-defined vector field. Created with SDL2 bindings for Rust',
 		techs: ['Rust', 'SDL2'],
 		href: 'https://github.com/Ovikx/vec-field-particles',
-		imgUrl:
-			'https://media.discordapp.net/attachments/992812563870003230/1140372629107253289/image.png?width=664&height=332'
+		imgUrl: 'particles.png'
 	},
 	{
 		title: 'expo-ink',
